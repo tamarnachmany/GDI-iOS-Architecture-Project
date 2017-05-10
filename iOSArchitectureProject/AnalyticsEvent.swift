@@ -7,3 +7,16 @@
 //
 
 import Foundation
+
+/// Represents an analytics event for a user interaction with the app.
+final class AnalyticsEvent: NSObject {
+    
+    /// Whether or not the function `send()` has been called on the AnalyticsEvent instance.
+    private var sent = false
+    
+    /// Logs the analytics event.
+    func send() {
+        sent = true
+    }
+}
+

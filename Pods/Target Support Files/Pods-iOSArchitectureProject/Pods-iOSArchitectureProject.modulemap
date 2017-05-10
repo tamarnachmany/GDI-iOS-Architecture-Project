@@ -1,0 +1,6 @@
+framework module Pods_iOSArchitectureProject {
+  umbrella header "Pods-iOSArchitectureProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

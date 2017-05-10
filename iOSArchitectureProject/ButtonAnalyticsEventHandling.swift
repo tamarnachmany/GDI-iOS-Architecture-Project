@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+/// Protocol for types that handle analytics logging for user interactions with buttons.
+protocol ButtonAnalyticsEventHandling: class {
+    
+    /// Sends an analytics event.
+    ///
+    /// - Parameter numberOfEvents: The number of
+    func sendEvent(_ events: Int)
+    
+}
