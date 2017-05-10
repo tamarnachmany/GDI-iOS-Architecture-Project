@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// In this assignment, you'll want to follow the TODOs to learn about modularity, delegation, and unit testing.
 /// TODO: Come up with a better name for this type and rename it from `ViewController` to something else. Note: UIViewController is the super class so you want to rename the bit after the colon.
 class ViewController: UIViewController {
 
