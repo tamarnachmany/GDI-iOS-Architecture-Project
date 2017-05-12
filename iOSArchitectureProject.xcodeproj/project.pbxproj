@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		43794C2C4FABA2FA10DE641F /* Pods_iOSArchitectureProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE86C6EDC61ECE162946059C /* Pods_iOSArchitectureProject.framework */; };
 		B917C41C1EC2ABD900F53858 /* AnalyticsEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B917C41B1EC2ABD900F53858 /* AnalyticsEvent.swift */; };
+		B917C4221EC3F4C900F53858 /* ButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B917C4211EC3F4C900F53858 /* ButtonDelegate.swift */; };
 		B982D32A1EBF72B80021D35C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B982D3291EBF72B80021D35C /* AppDelegate.swift */; };
 		B982D32C1EBF72B80021D35C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B982D32B1EBF72B80021D35C /* ViewController.swift */; };
 		B982D3311EBF72B80021D35C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B982D3301EBF72B80021D35C /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 		7A40C7BA5982B778A47B5A71 /* Pods-iOSArchitectureProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchitectureProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchitectureProjectTests/Pods-iOSArchitectureProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		887E42848BE5E38409996F5B /* Pods_iOSArchitectureProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSArchitectureProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B917C41B1EC2ABD900F53858 /* AnalyticsEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsEvent.swift; sourceTree = "<group>"; };
+		B917C4211EC3F4C900F53858 /* ButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonDelegate.swift; sourceTree = "<group>"; };
 		B982D3261EBF72B80021D35C /* iOSArchitectureProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSArchitectureProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B982D3291EBF72B80021D35C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B982D32B1EBF72B80021D35C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				B982D3291EBF72B80021D35C /* AppDelegate.swift */,
+				B917C4211EC3F4C900F53858 /* ButtonDelegate.swift */,
 				B982D32B1EBF72B80021D35C /* ViewController.swift */,
 				B917C41B1EC2ABD900F53858 /* AnalyticsEvent.swift */,
 				B982D35C1EBFFE1B0021D35C /* ButtonAnalyticsEventHandling.swift */,
@@ -332,6 +335,7 @@
 				B917C41C1EC2ABD900F53858 /* AnalyticsEvent.swift in Sources */,
 				B982D32A1EBF72B80021D35C /* AppDelegate.swift in Sources */,
 				B982D35D1EBFFE1B0021D35C /* ButtonAnalyticsEventHandling.swift in Sources */,
+				B917C4221EC3F4C900F53858 /* ButtonDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

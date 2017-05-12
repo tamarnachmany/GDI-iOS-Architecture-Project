@@ -14,6 +14,5 @@ protocol ButtonAnalyticsEventHandling: class {
     /// Sends an analytics event.
     ///
     /// - Parameter numberOfEvents: The number of analytics events that have not yet been sent.
-    func sendEvent(_ events: Int)
-    
+    func sendEvent(_ events: [AnalyticsEvent])
 }

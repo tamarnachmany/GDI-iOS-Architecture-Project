@@ -9,7 +9,7 @@
 import Foundation
 
 /// Represents an analytics event for a user interaction with the app.
-final class AnalyticsEvent: NSObject {
+public final class AnalyticsEvent: NSObject {
     
     /// Whether or not the function `send()` has been called on the AnalyticsEvent instance.
     private var sent = false

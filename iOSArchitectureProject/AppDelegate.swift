@@ -17,7 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         
         // TODO: Pass in a delegate here (a type that conforms to ButtonAnalyticsHandling)
-        window?.rootViewController = ViewController(delegate: nil)
+        let delegate = ButtonDelegate()
+        window?.rootViewController = ViewController(delegate: delegate)
         window?.makeKeyAndVisible()
         return true
     }
